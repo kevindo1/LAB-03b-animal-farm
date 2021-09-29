@@ -24,3 +24,21 @@ catImage.addEventListener('click', ()=> {
 horseImage.addEventListener('click', ()=> {
     horseSound.play();
 });
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        dogSound.play();
+    }
+});
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'c') {
+        catSound.play();
+    }
+});
+
+window.addEventListener('keydown', (event) => {
+    if (event.key === 'h') {
+        horseSound.play();
+    }
+});
