@@ -14,3 +14,7 @@ h1, p {
     justify-content: center;
     display: flex;
 }
+
+.animal-picture:hover {
+    transform: scaleX(-1);
+}
