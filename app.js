@@ -28,17 +28,20 @@ horseImage.addEventListener('click', ()=> {
 window.addEventListener('keydown', (event) => {
     if (event.key === 'd') {
         dogSound.play();
+        dogImage.style.transform = 'rotateY(180deg)';
     }
 });
 
 window.addEventListener('keydown', (event) => {
     if (event.key === 'c') {
         catSound.play();
+        catImage.style.transform = 'rotateY(180deg)';
     }
 });
 
 window.addEventListener('keydown', (event) => {
     if (event.key === 'h') {
         horseSound.play();
+        horseImage.style.transform = 'rotateY(180deg)';
     }
 });
