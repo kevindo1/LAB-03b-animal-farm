@@ -15,6 +15,6 @@ h1, p {
     display: flex;
 }
 
-.animal-picture:hover {
-    transform: scaleX(-1);
+.animal-picture:active {
+    transform: rotate(180deg);
 }
